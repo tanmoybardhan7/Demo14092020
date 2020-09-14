@@ -4,4 +4,3 @@ public with sharing class ContactsController {
         return [SELECT Name FROM Contact WITH SECURITY_ENFORCED Limit 10];
     }
 }
-/** Commenetd code to be added to the feature branch */
